@@ -1,0 +1,29 @@
+{
+  "name": "reqres.in-api-automation-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "open": "cypress open",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run --config-file cypress.homol.json",
+    "cypress:run:dev": "cypress run --config-file cypress.dev.json",
+    "cypress:run:prod": "cypress run --config-file cypress.prod.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@bahmutov/cy-api": "^1.4.3",
+    "cypress": "^10.4.0",
+    "cypress-localstorage-commands": "^1.5.0",
+    "cypress-upload-file-post-form": "^1.1.0",
+    "cypress-xpath": "^1.6.2"
+  },
+  "dependencies": {
+    "axios": "^0.23.0",
+    "faker": "^5.4.0",
+    "faker-br": "^0.4.1",
+    "remove-node-modules": "^1.7.6"
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "screenshotOnRunFailure": false,
+    "trashAssetsBeforeRuns": false,
+    "video": false,
+    "includeShadowDom": true,
+    "defaultCommandTimeout": 10000,
+    "retries": 0,
+    "env": {
+        "baseUrl": "http://reqres.in/api",
+        "options": {
+            "Content-Type": "application/x-www-form-urlencoded"
+        }
+    }
+}
